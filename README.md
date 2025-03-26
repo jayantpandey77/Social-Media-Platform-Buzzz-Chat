@@ -3,7 +3,16 @@
 BuzzzChat is a feature-rich chat application built using **Flutter** and **Firebase**. It supports user authentication, real-time messaging, profile customization, and an engaging UI with animations and gradient themes.
 
 ## 🤝 Screenshots
-
+![Screenshot Description](screenshot/s1.jpg)
+![Screenshot Description](screenshot/s2.jpg)
+![Screenshot Description](screenshot/s3.png)
+![Screenshot Description](screenshot/s4.jpg)
+![Screenshot Description](screenshot/s6.jpg)
+![Screenshot Description](screenshot/s7.jpg)
+![Screenshot Description](screenshot/s8.jpg)
+![Screenshot Description](screenshot/s9.png)
+![Screenshot Description](screenshot/s10.png)
+![Screenshot Description](screenshot/s11.png)
 
 ## 📌 Features
 - **User Authentication** (Email & Password, Google, Phone OTP)
