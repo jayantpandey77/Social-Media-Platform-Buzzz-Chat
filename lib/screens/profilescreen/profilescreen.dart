@@ -178,7 +178,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                               ),
                               Positioned(
                                 top: height * 0.223,
-                                right: width * 0.14,
+                                right: width * 0.12,
                                 child: Text(
                                   userData['name'] ?? '',
                                   style: TextStyle(
@@ -188,7 +188,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                               ),
                               Positioned(
                                 top: height * 0.29,
-                                right: width * 0.18,
+                                right: width * 0.12,
                                 child: Text(
                                   userData['bio'] ?? '',
                                   style: TextStyle(

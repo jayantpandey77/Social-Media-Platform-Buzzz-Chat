@@ -41,7 +41,7 @@ class SenderMessageCard extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15),
             ),
-            color: Colors.white, // ✅ Message box is now white
+            color: Colors.white, // Message box is now white
             margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
             child: Padding(
               padding: type == MessageEnum.text
@@ -55,15 +55,15 @@ class SenderMessageCard extends StatelessWidget {
                       username,
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.black, // ✅ Dark text for contrast
+                        color: Colors.black, // Dark text for contrast
                       ),
                     ),
                     const SizedBox(height: 3),
                     Container(
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
-                        color: Colors
-                            .grey[200], // ✅ Light grey for reply background
+                        color:
+                            Colors.grey[200], // Light grey for reply background
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: DisplayTextImageGIF(
@@ -77,6 +77,13 @@ class SenderMessageCard extends StatelessWidget {
                     child: DisplayTextImageGIF(
                       message: message,
                       type: type,
+                    ),
+                  ),
+                  Text(
+                    date,
+                    style: const TextStyle(
+                      fontSize: 12,
+                      color: Colors.black,
                     ),
                   ),
                 ],

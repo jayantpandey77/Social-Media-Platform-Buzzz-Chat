@@ -3,11 +3,7 @@ import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
-// import 'package:flutter/material.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-// import 'package:cloudinary_flutter/image/cld_image.dart';
-// import 'package:cloudinary_flutter/cloudinary_object.dart';
-// import 'package:cloudinary_url_gen/cloudinary.dart';
 import 'package:uuid/uuid.dart';
 
 final storageMethodsProvider = Provider(
